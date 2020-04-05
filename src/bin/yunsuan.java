@@ -13,6 +13,7 @@ public class yunsuan{
             char operator = formula.charAt(i);
             if (operator == '+'){
                 Run input = new Jia();
+
                 String number1 = formula.substring(0,i);//截取运算数字
                 String number2 = formula.substring(i+1,formula.length());
                 Shu numb = new Shu();
